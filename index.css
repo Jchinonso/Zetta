@@ -1,0 +1,27 @@
+ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+ul li {
+  position: relative;
+  padding: 0px 20px 0px 20px;
+  cursor: pointer;
+  color: #ffffff;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 50vh;
+  padding: 1rem 2.5rem;
+  background-image: url("./assets/Group 9/Group 9@2x.png"), url("./assets/Group 9/Group 9.png");
+  background-position: left, right;
+  background-size: 100%;
+  background-color: transparent;
+  background-repeat: no-repeat, repeat;
+}
+
+.logo {
+    color:  #ffffff;
+}
