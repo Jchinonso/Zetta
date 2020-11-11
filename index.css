@@ -1,3 +1,14 @@
+body {
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+@font-face {
+  font-family: Poppins-medium;
+  src: url(./assets/Poppins/Poppins-Medium.ttf);
+}
+
 ul {
   display: flex;
   padding: 0;
@@ -8,20 +19,29 @@ ul li {
   position: relative;
   padding: 0px 20px 0px 20px;
   cursor: pointer;
+  font-family: Poppins-medium;
+  font-size: 12px;
   color: #ffffff;
+}
+nav {
+    padding-top: 21px
 }
 header {
   display: flex;
   justify-content: space-between;
-  height: 50vh;
-  padding: 1rem 2.5rem;
-  background-image: url("./assets/Group 9/Group 9@2x.png"), url("./assets/Group 9/Group 9.png");
+  height: 70vh;
+  padding: 0rem 2.5rem;
+  background-image: url("./assets/Group 9/Group 9@2x.png"),
+    url("./assets/Group 9/Group 9.png");
   background-position: left, right;
   background-size: 100%;
   background-color: transparent;
-  background-repeat: no-repeat, repeat;
+  background-repeat: no-repeat, no-repeat;
 }
 
 .logo {
-    color:  #ffffff;
+  color: #ffffff;
+  font-family: Poppins-medium;
+  padding-top: 21px;
+  font-size: 14px;
 }
