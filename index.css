@@ -111,12 +111,17 @@ form {
   text-transform: capitalize;
   text-align: left;
 }
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color:#cecece;;
+  opacity: 1; /* Firefox */
+}
 .checkin-input {
   width: 260px;
   height: 50px;
   font-size: 13px;
   border-style: none;
-  color: #cecece;
+  color: #000000;
   text-indent: 16px;
   font-family: Poppins-thin;
   background: #eeeeee 0% 0% no-repeat padding-box;
@@ -165,7 +170,8 @@ form {
   width: 51px;
   height: 51px;
   margin-top: 21px;
-  margin-left: 33px;
+	margin-left: 33px;
+	cursor: pointer;
   background: #5863f8 0% 0% no-repeat padding-box;
   display: flex;
   align-items: center;
@@ -217,7 +223,8 @@ form {
   height: 50px;
   background: #5863f8 0% 0% no-repeat padding-box;
   display: flex;
-  flex-direction: row;
+	flex-direction: row;
+	cursor: pointer;
   align-items: center;
   justify-content: center;
 }
