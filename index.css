@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  overflow: auto;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -10,9 +11,9 @@ body {
   src: url(./assets/Poppins/Poppins-Medium.ttf);
 }
 @font-face {
-    font-family: Poppins-light;
-    src: url(./assets/Poppins/Poppins-Light.ttf);
-  }
+  font-family: Poppins-light;
+  src: url(./assets/Poppins/Poppins-Light.ttf);
+}
 ul {
   display: flex;
   padding: 0;
@@ -20,7 +21,6 @@ ul {
   list-style-type: none;
 }
 ul li {
-  position: relative;
   padding: 0px 20px 0px 20px;
   cursor: pointer;
   font-family: Poppins-light;
@@ -36,9 +36,7 @@ header {
     url("./assets/Group 9/Group 9.png");
   background-position: left, right;
   background-size: 100%;
-  height: 85vh;
-  background-color: transparent;
-  background-repeat: no-repeat, no-repeat;
+  height: 80vh;
 }
 
 .nav {
@@ -75,4 +73,65 @@ header {
   font-family: Poppins-light;
   line-height: 20px;
   color: #ffffff;
+}
+
+.check-ins {
+  box-shadow: 0px 15px 30px #0000001a;
+  width: 80%;
+  background: #fff;
+  height: 148px;
+}
+
+.checkin-text {
+  letter-spacing: 0px;
+  color: #5863f8;
+  font-size: 13px;
+  font-family: Poppins-medium;
+  text-transform: capitalize;
+  text-align: left;
+}
+.checkin-input {
+  width: 260px;
+  height: 50px;
+  font-size: 13px;
+  font-family: Poppins-medium;
+  background: #eeeeee 0% 0% no-repeat padding-box;
+}
+
+.top-container {
+  padding: 0.5rem 1rem;
+  margin-top: -90px;
+  margin-bottom: 35px;
+}
+
+.btn-container {
+  margin-top: -67px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 80vw;
+}
+
+.btn-one {
+  width: 51px;
+  height: 51px;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
+.btn-two {
+  width: 51px;
+  height: 51px;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  background: #5863f8 0% 0% no-repeat padding-box;
+}
+.container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
