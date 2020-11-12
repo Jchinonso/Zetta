@@ -112,9 +112,9 @@ form {
   width: 260px;
   height: 50px;
   font-size: 13px;
-	border-style: none;
-	color: #CECECE;
-	text-indent: 16px;
+  border-style: none;
+  color: #cecece;
+  text-indent: 16px;
   font-family: Poppins-thin;
   background: #eeeeee 0% 0% no-repeat padding-box;
 }
@@ -125,15 +125,16 @@ form {
   margin-bottom: 35px;
 }
 
-.btn-container {
+.arrow-container {
   margin-top: -67px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   width: 80vw;
+  padding-left: 2px;
 }
 
-.btn-one {
+.arrow-left {
   width: 51px;
   height: 51px;
   display: flex;
@@ -142,7 +143,7 @@ form {
   align-items: center;
   background: #ffffff 0% 0% no-repeat padding-box;
 }
-.btn-two {
+.arrow-right {
   width: 51px;
   height: 51px;
   display: flex;
@@ -155,4 +156,68 @@ form {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.btn-container {
+  width: 51px;
+  height: 51px;
+  margin-top: 21px;
+  margin-left: 33px;
+  background: #5863f8 0% 0% no-repeat padding-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+  padding-left: 139px;
+  padding-right: 139px;
+}
+
+.about {
+  letter-spacing: 0px;
+  color: #5863f8;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Poppins-medium;
+}
+
+.trust {
+  letter-spacing: 0px;
+  color: #000000;
+  font-size: 42px;
+  font-weight: 800;
+  font-family: Poppins-medium;
+  margin: 0;
+  line-height: 50px;
+}
+.step1 {
+  letter-spacing: 0px;
+  color: #000000;
+  font-size: 16px;
+  font-family: Poppins-medium;
+}
+
+.step2 {
+  letter-spacing: 0px;
+  color: #000000;
+  font-size: 14px;
+  font-family: Poppins-light;
+}
+
+.more {
+  width: 184px;
+  height: 50px;
+	background: #5863f8 0% 0% no-repeat padding-box;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.more-text {
+	letter-spacing: 0px; margin-right: 10px;
+					color: #FFFFFF; font-size: 14px; font-family: Poppins-medium
 }
