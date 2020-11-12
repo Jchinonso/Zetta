@@ -139,7 +139,7 @@ form {
   flex-direction: row;
   justify-content: flex-end;
   width: 80vw;
-  padding-left: 3px;
+  margin-left: 1px;
 }
 
 .arrow-left {
