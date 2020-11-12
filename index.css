@@ -1,5 +1,7 @@
 body {
-  margin: 0;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
   max-width: 100% !important;
   overflow-x: hidden !important;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -41,7 +43,8 @@ header {
     url("./assets/Group 9/Group 9.png");
   background-position: left, right;
   background-size: 100%;
-  height: 80vh;
+	height: 80vh;
+	width: 100%
 }
 
 .nav {
@@ -131,7 +134,7 @@ form {
   flex-direction: row;
   justify-content: flex-end;
   width: 80vw;
-  padding-left: 2px;
+  padding-left: 3px;
 }
 
 .arrow-left {
@@ -169,10 +172,10 @@ form {
   justify-content: center;
 }
 
-main {
+.article {
   display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
   padding-left: 139px;
   padding-right: 139px;
 }
@@ -211,13 +214,32 @@ main {
 .more {
   width: 184px;
   height: 50px;
-	background: #5863f8 0% 0% no-repeat padding-box;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
+  background: #5863f8 0% 0% no-repeat padding-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 .more-text {
-	letter-spacing: 0px; margin-right: 10px;
-					color: #FFFFFF; font-size: 14px; font-family: Poppins-medium
+  letter-spacing: 0px;
+  margin-right: 10px;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: Poppins-medium;
+}
+
+.carousel {
+	height: 70vh;
+	margin-top: 90px;
+	width: 100vw;
+	background-size: cover;
+  background-position: center;
+	background-image: url("./assets/unsplash.png");
+	background-repeat: no-repeat;
+}
+.overlay {
+background: #000000 0% 0% no-repeat padding-box;
+opacity: 0.4;
+height: 100%;
+width: 100%
 }
