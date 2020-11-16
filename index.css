@@ -140,7 +140,7 @@ form {
   flex-direction: row;
   justify-content: flex-end;
   width: 80vw;
-  margin-left: 1px;
+  margin-left: -11px;
 }
 
 .arrow-left {
